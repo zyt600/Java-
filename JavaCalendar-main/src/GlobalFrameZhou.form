@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GlobalFrameZhou">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="42" y="44" width="762" height="376"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="12ccb" binding="LeftPanel" layout-manager="GridBagLayout">
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="line"/>
+        <children>
+          <component id="a8015" class="javax.swing.JButton" binding="其他日历Button" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-12829636"/>
+              <foreground color="-4476672"/>
+              <text value="其他日历"/>
+            </properties>
+          </component>
+          <component id="a9433" class="javax.swing.JButton" binding="课程日历Button" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <foreground color="-13124864"/>
+              <text value="课程日历"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e1ccf" binding="UpPanel" layout-manager="GridBagLayout">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="line"/>
+        <children>
+          <component id="4fb43" class="javax.swing.JButton" binding="createToDoButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="新建日程"/>
+            </properties>
+          </component>
+          <component id="427df" class="javax.swing.JButton" binding="monthButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <hideActionText value="false"/>
+              <text value="月视图"/>
+            </properties>
+          </component>
+          <component id="15037" class="javax.swing.JButton" binding="weekButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="周视图"/>
+            </properties>
+          </component>
+          <grid id="39c6" binding="SearchPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="bfdb" class="javax.swing.JFormattedTextField" binding="SearchFormattedTextField">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <columns value="10"/>
+                  <text value="搜索日程"/>
+                </properties>
+                <clientProperties>
+                  <caretAspectRatio class="java.lang.Double" value="0.0"/>
+                  <caretWidth class="java.lang.Integer" value="20"/>
+                </clientProperties>
+              </component>
+              <component id="bbfa3" class="javax.swing.JButton" binding="SearchButton">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <text value="搜！"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="eafb" class="javax.swing.JButton" binding="初始化日历Button" default-binding="true">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="清空日历"/>
+            </properties>
+          </component>
+          <component id="18124" class="javax.swing.JButton" binding="导出ics文件Button" default-binding="true">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="导出ics文件"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="800ab" binding="DownPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-722945"/>
+          <minimumSize width="140" height="31"/>
+          <preferredSize width="140" height="75"/>
+        </properties>
+        <border type="line"/>
+        <children>
+          <component id="eea41" class="javax.swing.JButton" binding="NewsButton">
+            <constraints/>
+            <properties>
+              <foreground color="-4516078"/>
+              <text value="这里是新闻"/>
+            </properties>
+          </component>
+          <component id="807e7" class="javax.swing.JLabel" binding="WeatherLabel">
+            <constraints/>
+            <properties>
+              <preferredSize width="120" height="60"/>
+              <text value="这里是天气"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="9b410" binding="MiddlePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="line"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
