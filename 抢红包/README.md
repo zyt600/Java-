@@ -1,0 +1,1 @@
+ButtonControlRedPacket是用按钮控制、设置参数的红包模拟器，RedPacketWithPicture是绘图的红包模拟
